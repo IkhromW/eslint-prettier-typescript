@@ -1,7 +1,16 @@
 {
     "author": "Ikhrom Wicaksono",
+    "main": "src/index.js",
     "dependencies": {},
+    "scripts": {
+        "build": "tsc"
+    },
     "devDependencies": {
+        "@types/node": "^18.16.1",
         "typescript": "^5.0.4"
-    }
+    },
+    "type": "module",
+    "version": "0.0.1"
+
+
 }
