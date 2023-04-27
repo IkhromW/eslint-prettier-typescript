@@ -1,15 +1,20 @@
 {
 	"author": "Ikhrom Wicaksono",
 	"main": "src/index.js",
-	"dependencies": {},
 	"scripts": {
 		"build": "tsc",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"@types/node": "^18.16.1",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.2",
 		"prettier": "2.8.8",
 		"typescript": "^5.0.4"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
 	},
 	"type": "module",
 	"version": "0.0.1"
