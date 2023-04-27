@@ -1,0 +1,7 @@
+{
+    "author": "Ikhrom Wicaksono",
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    }
+}
