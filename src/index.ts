@@ -1,9 +1,5 @@
-type Haha = true
-
-console.log("Hi Hi!!")
-
-export const hello = 'Hello World'
-
-async function test() {
-    await Promise.resolve("HI")
+function greetName(name: string) {
+	console.log("HI" + name.toUpperCase() + "!");
 }
+
+greetName(Math.random() > 0.5 ? "ikhrom" : "anonymous");
